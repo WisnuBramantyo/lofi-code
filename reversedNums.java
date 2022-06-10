@@ -23,7 +23,7 @@ public class reversedNums {
         
         for(int i=0 ; i<=arr.length-1 ; i++){
             rvsNum[i] = arr[y];
-            y = y -1 ;
+            y = y-1 ;
         }
 
         System.out.println("Reversed array elements are "+Arrays.toString(rvsNum));
