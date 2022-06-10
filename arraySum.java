@@ -12,7 +12,8 @@ class arraySum {
 
         if(sc.hasNextInt())
         size = sc.nextInt();
-
+        sc.close();
+        
         int arr[] = new int[size];
         
         System.out.println("Input elements of array : ");
@@ -22,10 +23,8 @@ class arraySum {
             // sum = sum + arr[i];
             sum += arr[i];
         }        
-        
-        System.out.println("The sum of array elements is: "+sum);
-
         sc.close();
+        System.out.println("The sum of array elements is: "+sum);
     
     }
 
